@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93f10ec0-a648-47f3-a0be-2bcc623ec6d9" name="Changes" comment="" />
+    <list default="true" id="93f10ec0-a648-47f3-a0be-2bcc623ec6d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_create_courier/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_create_courier/test_create_courier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_login_courier/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_login_courier/test_login_courier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_order/test_create_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +27,19 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2kWcdpEfIrKFYgOt2iWuynBj0cX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -37,5 +57,8 @@
       <updated>1723402863784</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
