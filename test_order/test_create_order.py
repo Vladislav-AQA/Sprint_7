@@ -3,7 +3,6 @@ import pytest
 import urls
 import requests
 
-
 @allure.title("Проверка создания заказа")
 class TestCreateOrder:
 
@@ -23,9 +22,6 @@ class TestCreateOrder:
         }
         response = requests.post(url=f'{urls.BASE_URL}{urls.CREATE_ORDER}', json=data)
         assert 201 == response.status_code and 'track' in response.json()
-
-@allure.title("Проверка возврата списка заказов")
-class TestReceiveListOrder:
 
     @allure.description("Список заказов курьера по 'id'")
     def test_receive_list_order(self):
